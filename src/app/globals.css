@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'minecraft';
+  src: url('/fonts/minecraft/mojangles.otf') format('opentype');
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'minecraft';
+}
