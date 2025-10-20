@@ -13,3 +13,19 @@
 body {
   font-family: 'minecraft';
 }
+
+@keyframes Scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.elemento {
+  animation: Scale 1s  infinite;
+}

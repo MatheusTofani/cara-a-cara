@@ -2,7 +2,6 @@ import { items } from "@/data/items";
 import { useState } from "react";
 
 const Inicio = () => {
-
     const [selectedIds, setSelectedIds] = useState([]);
 
     const handleClick = (id) => {
@@ -14,8 +13,8 @@ const Inicio = () => {
     };
 
     return (
-        <div className="relative z-[100] p-4">
-            <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4">
+        <div className="relative z-[40] p-4 flex justify-center items-center">
+            <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4 place-items-center">
                 {items.map((item) => (
                     <li
                         key={item.id}
